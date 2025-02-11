@@ -50,7 +50,7 @@ html {
 
 .sectionContainer {
     /* This is for larger screens */
-    background-color: #8cff75;
+    background-color: #0e5500;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 
@@ -58,6 +58,7 @@ html {
     width: 80%;
     margin: 0 auto;
     margin-top: 15px;
+    border-radius: 1%;
 }
 
 
@@ -65,6 +66,7 @@ html {
     background: #94ff07;
     padding: 20px;
     margin: 10px;
+    border: double;
 }
 /* END setting up html and containers */
 
