@@ -50,16 +50,21 @@ html {
 @media (max-width: 1024px) {
     /* Medium Screens? */
     .sectionContainer {
-      grid-template-columns: repeat(2, 1fr); /* 2 columns */
+      grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 600px) {
     /* Phone Screens? */
     .sectionContainer {
-      grid-template-columns: repeat(1, 1fr); /* 1 column */
+      grid-template-columns: repeat(1, 1fr);
     }
 }
+
+.imageResponsive {
+    width: 100%;
+    height: auto;
+  }
 /* END optimization? */
 
 /* START top bar configs */
