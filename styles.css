@@ -2,7 +2,7 @@
 html {
     box-sizing: border-box;
     background-attachment: fixed;
-    background: linear-gradient(to bottom, #ffffff, #cccccc);
+    background: linear-gradient(to bottom, #adb5f8, #ffface, #adb5f8);
 }
 *, *:before, *:after{
     box-sizing: inherit;
@@ -24,7 +24,6 @@ html {
     text-align: center;
     width: 80%;
     margin: 0 auto;
-
 }
 
 .miniContainer {
@@ -34,6 +33,19 @@ html {
     text-align: center;
     width: 80%;
     margin: 1em;
+    border-radius: 10%;
+
+    border-top: solid #ffffff;
+    border-bottom: solid #0a1761;
+}
+.miniContainer p{
+    border-radius: 20%;
+    border-top: solid #ffffff;
+    border-bottom: solid #0a1761;
+
+    background-color: #b8d4df;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .sectionContainer {
@@ -46,6 +58,13 @@ html {
     width: 80%;
     margin: 0 auto;
     margin-top: 15px;
+}
+
+
+.itemListing {
+    background: #94ff07;
+    padding: 20px;
+    margin: 10px;
 }
 /* END setting up html and containers */
 
@@ -76,8 +95,12 @@ html {
 
 /* START top bar configs */
 div.headContainer h1 {
-    background-color: #ffe4c4;
+    background-color: #8a9ef5;
     text-align: center;
+
+    border-radius: 5%;
+    border-top: solid #ffffff;
+    border-bottom: solid #0a1761;
 }
 .taglineThing {
     background-color: #fed7ff;
@@ -90,7 +113,7 @@ div.headContainer h1 {
 }
 
 div nav {
-    background-color: #68d4ff;
+    background-color: #8a9ef5;
 }
 
 nav p {
@@ -104,6 +127,11 @@ div.textBar {
     margin-top: 15px;
     text-align: center;
     background-color: bisque;
+
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
 }
 /* END top bar configs */
 
