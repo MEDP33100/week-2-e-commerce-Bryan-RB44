@@ -23,6 +23,7 @@ html {
     text-align: center;
     width: 80%;
     margin: 0 auto;
+
 }
 
 .miniContainer {
@@ -60,6 +61,10 @@ html {
     .sectionContainer {
       grid-template-columns: repeat(1, 1fr);
     }
+
+    .headContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 .imageResponsive {
@@ -95,6 +100,7 @@ nav p {
 }
 
 div.textBar {
+    margin-top: 15px;
     text-align: center;
     background-color: bisque;
 }
