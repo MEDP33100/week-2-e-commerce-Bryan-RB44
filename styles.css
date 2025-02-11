@@ -58,15 +58,34 @@ html {
     width: 80%;
     margin: 0 auto;
     margin-top: 15px;
-    border-radius: 1%;
+    border-radius: 2%;
 }
-
 
 .itemListing {
     background: #94ff07;
     padding: 20px;
     margin: 10px;
     border: double;
+}
+.itemListing p {
+    text-align: left;
+
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+}
+.itemListing h1 {
+    text-align: center;
+
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: 10px;
 }
 /* END setting up html and containers */
 
