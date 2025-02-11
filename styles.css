@@ -2,6 +2,7 @@
 html {
     box-sizing: border-box;
     background-attachment: fixed;
+    background: linear-gradient(to bottom, #ffffff, #cccccc);
 }
 *, *:before, *:after{
     box-sizing: inherit;
@@ -116,7 +117,17 @@ div.textBar {
 
 /* START footer configs */
 footer {
-    background-color: #b4b4b4;
-    margin-top: 1%;
+    text-align: center;
+    background-color: #0a1761;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 3%;
+    padding: 2%;
+    border-radius: 50% 50% 50% 50%;
+
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
 }
 /* END footer configs */
