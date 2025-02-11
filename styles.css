@@ -76,7 +76,7 @@ html {
     font-style: normal;
     margin-top: 1%;
     margin-bottom: 1%;
-    
+
 }
 .itemListing h1 {
     text-align: center;
@@ -124,13 +124,17 @@ div.headContainer h1 {
     border-bottom: solid #0a1761;
 }
 .taglineThing {
-    background-color: #fed7ff;
+    background-color: #40cef1;
     text-align: center;
 
     font-family: "Lexend", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
+
+    border-radius: 10%;
+    border-top: solid #ffffff;
+    border-bottom: solid #0a1761;
 }
 
 div nav {
@@ -147,12 +151,18 @@ nav p {
 div.textBar {
     margin-top: 15px;
     text-align: center;
-    background-color: bisque;
+    background-color: #3026bd;
+    color: #ffffff;
+    padding: 1%;
 
     font-family: "Lexend", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
+
+    border-radius: 10%;
+    border-top: solid #ffffff;
+    border-bottom: solid #050e3f;
 }
 /* END top bar configs */
 
@@ -180,3 +190,13 @@ footer {
     font-style: normal;
 }
 /* END footer configs */
+
+/* START link configs */
+a {
+    text-decoration: none;
+    color: #010a5e;
+}
+a:hover {
+    color: #ff0000;
+}
+/* END link configs */
